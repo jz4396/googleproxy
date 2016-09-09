@@ -217,7 +217,7 @@ class HomeHandler(BaseHandler):
       "latest_urls": latest_urls,
       "secure_url": secure_url,
     }
-    self.response.out.write(template.render("main.html", context))
+    self.response.out.write(unicode(template.render("main.html", context)))
 
 
 class MirrorHandler(BaseHandler):
