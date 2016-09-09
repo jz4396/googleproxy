@@ -1,6 +1,6 @@
 application: the-ultimate-test
 version: secureable
-runtime: python
+runtime: python 26
 api_version: 1
 
 handlers:
